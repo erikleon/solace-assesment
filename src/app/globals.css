@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: Mollie Glaston;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/fonts/Mollieglaston.woff2") format("woff2");
+}
+
+.advocate-name {
+  font-family: Mollie Glaston, serif;
+  margin-top: 10px;
+  font-size: 2.2rem;
+}
+
+.specialty-chip {
+  color: #347866;
+  text-align: center;
+  background-color: #3478661a;
+  border-radius: 12px;
+  padding: 6px 10px;
+  font-size: 0.9rem;
+}
+
+.reset-search-button {
+  color: #000;
+  text-align: left;
+  cursor: pointer;
+  background-color: #d7a13b;
+  background-image: linear-gradient(90deg, #deb260, #d39009);
+  border-radius: 8px;
+  flex: 0 auto;
+  box-shadow: inset 1.67px 1.67px 4.7px #fff6e0;
+}
