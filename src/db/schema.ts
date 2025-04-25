@@ -6,7 +6,6 @@ import {
   jsonb,
   serial,
   timestamp,
-  bigint,
 } from "drizzle-orm/pg-core";
 
 const advocates = pgTable("advocates", {
